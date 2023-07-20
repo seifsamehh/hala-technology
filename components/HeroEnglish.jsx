@@ -41,7 +41,7 @@ const HeroEnglish = () => {
               aria-label="videoBtn"
               width="50"
               height="40"
-              loading="lazy"
+              priority={true}
               placeholder="blur"
               blurDataURL="data:image/webp;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mMUqvCpBwAC0QFXeHk1kgAAAABJRU5ErkJggg=="
             />

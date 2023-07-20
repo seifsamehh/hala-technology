@@ -189,6 +189,7 @@ const Header = () => {
               (max-width: 1200px) 50vw,
               33vw"
               className="w-100 h-100"
+              priority={true}
               placeholder="blur"
               blurDataURL="data:image/webp;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mMUqvCpBwAC0QFXeHk1kgAAAABJRU5ErkJggg=="
             />
