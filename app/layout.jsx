@@ -91,18 +91,6 @@ export const metadata = {
         height: 512,
         alt: "Campaign logo",
       },
-      {
-        url: "/egypt.webp",
-        width: 1800,
-        height: 1600,
-        alt: "Egypt logo",
-      },
-      {
-        url: "/saudi.webp",
-        width: 1800,
-        height: 1600,
-        alt: "Saudi logo",
-      },
     ],
     locale: "ar_EG",
     type: "website",
