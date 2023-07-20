@@ -1,0 +1,13 @@
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+  transition: 0.3s;
+  .middle {
+    transition: 0.3s;
+    p {
+      font-weight: bold;
+    }
+  }
+}

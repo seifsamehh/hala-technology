@@ -1,0 +1,28 @@
+//start global varibales
+$dark: #1f1f29;
+$secondary-color: #fdd204;
+//end global varibales
+.heroo {
+  background-image: url("/HeroBg.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-y: 100%;
+  .hero-content {
+    h2,
+    h1 {
+      text-shadow: 5px 6px 0 $dark;
+    }
+    .left {
+      background-image: url("/tree.webp");
+      background-size: contain;
+      background-repeat: no-repeat;
+    }
+    .right {
+      .modal-box {
+        background-color: $secondary-color !important;
+        padding: 2rem;
+        max-width: 25rem;
+      }
+    }
+  }
+}

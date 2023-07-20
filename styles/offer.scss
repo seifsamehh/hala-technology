@@ -1,0 +1,15 @@
+.offers {
+  position: relative;
+  &::before {
+    content: "شنقدم لك";
+    position: absolute;
+    bottom: -5%;
+    left: 0;
+    font-size: 10rem;
+    font-weight: bold;
+    color: rgba(253, 210, 4, 0.6);
+    @media screen and (max-width: 768px) {
+      display: none;
+    }
+  }
+}

@@ -1,0 +1,15 @@
+//start global varibales
+$dark: #1f1f29;
+//end global varibales
+.payment {
+  .payment-content {
+    .top {
+      box-shadow: 0 0 0 4px $dark;
+    }
+    .middle {
+      background-image: url("/callBg.webp");
+      background-size: cover;
+      box-shadow: 16px 20px 0 $dark;
+    }
+  }
+}

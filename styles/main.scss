@@ -1,0 +1,97 @@
+//start global varibales
+$light: #f5f5fa;
+$dark: #1f1f29;
+$main-color: #12784c;
+$secondary-color: #fdd204;
+//end global varibales
+//start global components
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a,
+img,
+video,
+button {
+  user-select: none;
+}
+a {
+  text-decoration: none;
+}
+button {
+  border: none;
+  outline: none;
+}
+::-webkit-scrollbar {
+  width: 0;
+}
+::selection {
+  background-color: $main-color;
+  color: $light;
+}
+main {
+  background-image: url("/nnnoiseLight.svg");
+}
+// dark
+.dark {
+  main {
+    background-image: url("/nnnoise.svg");
+  }
+  .payment {
+    .payment-content {
+      .middle {
+        box-shadow: 16px 20px 0 $main-color;
+      }
+    }
+  }
+}
+// loading
+.loading-page {
+  position: relative;
+  background-image: url("../public/ssspill.svg");
+  background-size: cover;
+  background-position: top;
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(18, 120, 76, 0.5);
+    backdrop-filter: blur(5px);
+  }
+}
+// english
+.english-version {
+  .work {
+    &::before {
+      content: "Projects";
+      font-family: Onetwohours;
+    }
+  }
+  .partners {
+    &::before {
+      content: "Partners";
+      font-family: Onetwohours;
+    }
+  }
+  .offers {
+    &::before {
+      content: "Offers";
+      font-family: Onetwohours;
+    }
+  }
+  .uses {
+    &::before {
+      content: "Uses";
+      font-family: Onetwohours;
+      right: 0;
+      left: unset;
+    }
+  }
+}
+//end global components

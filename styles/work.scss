@@ -1,0 +1,25 @@
+//start global varibales
+$dark: #1f1f29;
+$main-color: #11784b;
+//end global varibales
+.work {
+  position: relative;
+  &::before {
+    content: "مشاريع";
+    position: absolute;
+    bottom: -5%;
+    left: 0;
+    font-size: 13rem;
+    font-weight: bold;
+    color: rgba(253, 210, 4, 0.6);
+    @media screen and (max-width: 768px) {
+      display: none;
+    }
+  }
+  .work-content {
+    .box {
+      box-shadow: 9px 10px 0 $main-color;
+      border: 3px dashed $dark;
+    }
+  }
+}
