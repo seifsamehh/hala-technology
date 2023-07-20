@@ -18,14 +18,14 @@ const HeroEnglish = () => {
         <div className="right md:ml-12">
           <Parallax speed={6}>
             <h1
-              className={`min-[290px]:text-6xl md:text-8xl mb-4 min-[290px]:pl-4 md:pl-0 font-bold text-white ${merriweather.className}`}
+              className={`min-[290px]:text-6xl md:text-8xl mb-4 min-[290px]:px-4 md:px-0 font-bold text-white ${merriweather.className}`}
             >
               Hala
             </h1>
           </Parallax>
           <Parallax speed={5}>
             <h2
-              className={`min-[290px]:text-6xl md:text-8xl mb-4 min-[290px]:pl-4 md:pl-0 font-bold text-[#fdd204] ${merriweather.className}`}
+              className={`min-[290px]:text-6xl md:text-8xl mb-4 min-[290px]:px-4 md:px-0 font-bold text-[#fdd204] ${merriweather.className}`}
             >
               Technology
             </h2>

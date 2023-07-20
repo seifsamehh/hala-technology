@@ -13,7 +13,6 @@ const Uses = () => {
       >
         <div className="flex items-center justify-start gap-4 mb-8 title">
           <Parallax speed={5}>
-            {" "}
             <Image
               src="/useBtn.webp"
               alt="use btn"
@@ -46,7 +45,7 @@ const Uses = () => {
               blurDataURL="data:image/webp;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mMUqvCpBwAC0QFXeHk1kgAAAABJRU5ErkJggg=="
             />
             <div className="flex flex-col departments gap-14">
-              <Parallax opacity={[0.5, 1]}>
+              <Parallax opacity={[0.5, 2]}>
                 <div className="box bg-[#fdd204] dark:bg-[#11784b] flex justify-start items-center min-[290px]:flex-wrap md:flex-nowrap p-2 rounded-lg">
                   <Image
                     src="/arrow.webp"
@@ -63,7 +62,7 @@ const Uses = () => {
                   </h3>
                 </div>
               </Parallax>
-              <Parallax opacity={[0.5, 1]}>
+              <Parallax opacity={[0.5, 2]}>
                 <div className="box bg-[#fdd204] dark:bg-[#11784b] flex justify-start items-center min-[290px]:flex-wrap md:flex-nowrap p-2 rounded-lg">
                   <Image
                     src="/cap.webp"
@@ -80,7 +79,7 @@ const Uses = () => {
                   </h3>
                 </div>
               </Parallax>
-              <Parallax opacity={[0.5, 1]}>
+              <Parallax opacity={[0.5, 2]}>
                 <div className="box bg-[#fdd204] dark:bg-[#11784b] flex justify-start items-center min-[290px]:flex-wrap md:flex-nowrap p-2 rounded-lg">
                   <Image
                     src="/job.webp"
@@ -97,7 +96,7 @@ const Uses = () => {
                   </h3>
                 </div>
               </Parallax>
-              <Parallax opacity={[0.5, 1]}>
+              <Parallax opacity={[0.5, 2]}>
                 <div className="box bg-[#fdd204] dark:bg-[#11784b] flex justify-start items-center min-[290px]:flex-wrap md:flex-nowrap p-2 rounded-lg">
                   <Image
                     src="/event.webp"
@@ -114,7 +113,7 @@ const Uses = () => {
                   </h3>
                 </div>
               </Parallax>
-              <Parallax opacity={[0.5, 1]}>
+              <Parallax opacity={[0.5, 2]}>
                 <div className="box bg-[#fdd204] dark:bg-[#11784b] flex justify-start items-center min-[290px]:flex-wrap md:flex-nowrap p-2 rounded-lg">
                   <Image
                     src="/trade.webp"
@@ -131,7 +130,7 @@ const Uses = () => {
                   </h3>
                 </div>
               </Parallax>
-              <Parallax opacity={[0.5, 1]}>
+              <Parallax opacity={[0.5, 2]}>
                 <div className="box bg-[#fdd204] dark:bg-[#11784b] flex justify-start items-center min-[290px]:flex-wrap md:flex-nowrap p-2 rounded-lg">
                   <Image
                     src="/star.svg"

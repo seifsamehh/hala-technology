@@ -38,7 +38,7 @@ const OfferEnglish = () => {
       </div>
       <div className="offer-content">
         <div className="container min-[290px]:px-2 md:px-5 min-[290px]:py-6 md:py-24 mx-auto">
-          <div className="md:flex flex-wrap -mx-2 lg:w-4/5 sm:mx-auto sm:mb-2 min-[290px]:hidden">
+          <div className="flex flex-wrap -mx-2 lg:w-4/5 sm:mx-auto sm:mb-2">
             <div className="w-full p-2 sm:w-1/2">
               <Parallax speed={5}>
                 <div className="bg-[#fdd204] rounded flex p-4 md:h-16 items-center gap-4">
