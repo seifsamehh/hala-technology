@@ -145,16 +145,40 @@ export default function RootLayout({ children }) {
       <body>
         {children}
         <Script
+          id="live chat"
           src="https://embed.tawk.to/64a5016094cf5d49dc619bb9/1h4i8qod1"
           defer
-        />
-        <Script src="/shortcuts.js" defer />
+          rel="preload"
+          as="script"
+        ></Script>
         <Script
+          id="shortcuts"
+          src="/shortcuts.js"
+          defer
+          rel="preload"
+          as="script"
+        ></Script>
+        <Script
+          id="google analytics"
           src="https://www.googletagmanager.com/gtag/js?id=G-2EW5J17ZBP"
           async
-        />
-        <Script src="/analysis.js" defer />
-        <Script src="/click.js" defer />
+          rel="preload"
+          as="script"
+        ></Script>
+        <Script
+          src="/analysis.js"
+          id="analysis"
+          defer
+          rel="preload"
+          as="script"
+        ></Script>
+        <Script
+          id="disable click"
+          src="/click.js"
+          defer
+          rel="preload"
+          as="script"
+        ></Script>
       </body>
     </html>
   );
