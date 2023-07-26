@@ -2,7 +2,8 @@ import Image from "next/image";
 import { Kufam } from "next/font/google";
 const kufam = Kufam({ subsets: ["latin"], display: "swap" });
 import { Parallax } from "react-scroll-parallax";
-import Header from "./Header";
+import dynamic from "next/dynamic";
+const Header = dynamic(() => import("@/components/Header"));
 import "../styles/hero.scss";
 
 const Hero = () => {
